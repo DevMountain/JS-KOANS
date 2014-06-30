@@ -1,5 +1,4 @@
 describe("About variables and If Statments", function() {
-
   it("should create a variable called myFirstVariable and set it equal to 1", function() {
     //code goes here.
     expect(myFirstVariable).toBe(1);
@@ -59,4 +58,19 @@ describe("About variables and If Statments", function() {
 
     //explain your answer here.
   });
+
+  it('should understand adding strings', function(){
+    var num = '3';
+    expect(num + 8).toBe(FILL_ME_IN);
+
+    //explain your answer here.
+  });
+
+  it('should understand adding strings, again', function(){
+    var num = '3';
+    expect(num + FILL_ME_IN).toBe(38);
+
+    //explain your answer here.
+  });
 });
+

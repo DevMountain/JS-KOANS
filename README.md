@@ -8,3 +8,5 @@ This purpose of this repository is to introduce you to Test Driven Development f
 4. The most outer text in the red box is the particular section you're in, in from that is the particular test, and inside that box in the gray area is what the test suite is expecting to happen. In this case the test suite is expecting 'false to be Truthy'. Inside that box you'll notice which file the test is failing at, AboutExpects.js
 5. Navigate to AboutExpects.js and make all those tests pass to get a feel for how TDD (test driven development) works.
 6. Once you make all those tests pass, notice that those particular tests go green, and now the most outer text is now different - because we've moved on to a different section. Keep working to pass all the tests. Be sure to commit and push to your fork often, it's good practice.
+
+[This repo is a fork of the following link with added Koans](https://github.com/mrdavidlaing/javascript-koans)
