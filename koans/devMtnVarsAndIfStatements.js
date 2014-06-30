@@ -68,7 +68,7 @@ describe("About variables and If Statments", function() {
 
   it('should understand adding strings, again', function(){
     var num = '3';
-    expect(num + FILL_ME_IN).toBe(38);
+    expect(num + FILL_ME_IN).toBe('38');
 
     //explain your answer here.
   });
