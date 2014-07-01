@@ -21,8 +21,15 @@ describe("About Functions", function() {
       return message;
     }
 
+    function crazyScope(){
+      message = 'crazy';
+      return message;
+    }
+
     expect(getMessage()).toBe(FILL_ME_IN);
     expect(overrideMessage()).toBe(FILL_ME_IN);
+    expect(message).toBe(FILL_ME_IN);
+    crazyScope();
     expect(message).toBe(FILL_ME_IN);
   });
 
@@ -68,33 +75,7 @@ describe("About Functions", function() {
     }
 
     expect(returnSecondArg("only give first arg")).toBe(FILL_ME_IN);
-
-    function returnAllArgs() {
-      var argsArray = [];
-      for (var i = 0; i < arguments.length; i += 1) {
-        argsArray.push(arguments[i]);
-      }
-      return argsArray.join(",");
-    }
-
-    expect(returnAllArgs("first", "second", "third")).toBe(FILL_ME_IN);
   });
 
-  it("should pass functions as values", function () {
-
-    var appendRules = function (name) {
-      return name + " rules!";
-    };
-
-    var appendDoubleRules = function (name) {
-      return name + " totally rules!";
-    };
-
-    var praiseSinger = { givePraise: appendRules };
-    expect(praiseSinger.givePraise("John")).toBe(FILL_ME_IN);
-
-    praiseSinger.givePraise = appendDoubleRules;
-    expect(praiseSinger.givePraise("Mary")).toBe(FILL_ME_IN);
-
-  });
+  
 });
