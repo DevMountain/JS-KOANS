@@ -77,5 +77,5 @@ describe("About Functions", function() {
     expect(returnSecondArg("only give first arg")).toBe(FILL_ME_IN);
   });
 
-  
+  //End of Koans Day 1. 
 });
