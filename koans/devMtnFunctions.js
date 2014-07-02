@@ -1,4 +1,4 @@
-describe('About Functions', function(){
+describe('First Functions', function(){
   it('should create a function returns the current year', function(){
     //Write a function called getYear that returns the current year
 
