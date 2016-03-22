@@ -10,3 +10,7 @@ This purpose of this repository is to introduce you to Test Driven Development f
 6. Once you make all those tests pass, notice that those particular tests go green, and now the most outer text is now different - because we've moved on to a different section. Keep working to pass all the tests. Be sure to commit and push to your fork often, it's good practice.
 
 [This repo is a fork of the following link with added Koans](https://github.com/mrdavidlaing/javascript-koans)
+
+## Copyright
+
+© DevMountain LLC, 2016. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
